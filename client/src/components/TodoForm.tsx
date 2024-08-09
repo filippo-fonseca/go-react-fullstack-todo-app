@@ -6,7 +6,6 @@ import { BASE_URL } from "../App";
 
 const TodoForm = () => {
     const [newTodo, setNewTodo] = useState("");
-    const [isPending, setIsPending] = useState(false);
 
     const queryClient = useQueryClient();
 
